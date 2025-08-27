@@ -1,0 +1,34 @@
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color:orange
+}
+
+background {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    
+}

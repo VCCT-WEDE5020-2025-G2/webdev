@@ -1,0 +1,47 @@
+h1 {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color:orange
+}
+
+h2 {
+    margin-top: 0;
+    text-align: center;
+    margin-left: 450px;
+     font-weight: bold;
+    background: linear-gradient(to right, #ffffff, rgb(100, 100, 97));
+    -webkit-background-clip: text;
+}
+
+background {
+    background-image: url(background2.jpg);
+}
+
+p2 {
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+    margin-top: 0px;
+}
+
+p3 {
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 300px;
+}
