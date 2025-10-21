@@ -21,7 +21,14 @@ h2 {
     text-align: center;
     margin-left: 450px;
      font-weight: bold;
-    background: linear-gradient(to right, #ffffff, rgb(100, 100, 97));
+    color: black;
+    
+}
+
+h3 {
+    margin-top: 0;
+     font-weight: bold;
+    color: black;
     
 }
 
@@ -29,22 +36,16 @@ background {
     background-image: url(background2.jpg);
 }
 
-p2 {
+p {
     font-size: 20px;
     font-weight: normal;
     color: black;
     text-align: center;
     margin-top: 0px;
+    
 }
 
-p3 {
-    font-size: 20px;
-    font-weight: normal;
-    color: black;
-    text-align: center;
-    margin-top: 0px;
-    margin-left: 300px;
-}
+
 
 .card {
   width: 17em;
