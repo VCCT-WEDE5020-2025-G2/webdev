@@ -36,12 +36,17 @@ h3 {
     color: orange;
     text-align: center;
 }
+nav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
 
 nav a {
-    margin-left: 20px;
     text-decoration: none;
     color: white;
     font-weight: bold;
+    transition: color 0.3s;
 }
 
 nav a:hover {

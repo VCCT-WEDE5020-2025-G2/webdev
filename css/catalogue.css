@@ -15,12 +15,17 @@ header {
     padding: 20px 40px;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
 
 nav a {
-    margin-left: 20px;
+   color: white;
     text-decoration: none;
-    color: blue;
     font-weight: bold;
+    transition: color 0.3s;
 }
 
 nav a:hover {
@@ -101,3 +106,4 @@ product-price {
     color: white;
     margin-top: 10px;
 }
+

@@ -1,17 +1,73 @@
-h1 {
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: url("../images/background5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
-    color: white;
+    padding: 20px 40px;
 }
 
-h3 {
-    font-size: xx-large;
+
+h1 {
+    font-size: 35px;
     font-weight: bold;
+    color: orange;
+    margin: 0;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+nav a {
     color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+main {
+    padding: 50px;
     text-align: center;
-    margin-top: 20px;
-    margin-right: 600px;
+}
+
+h2 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+
+h3 {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+/* google form iframe styling */
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    border-radius: 10px;
+    border: none;
+    background-color: white;
 }
 
