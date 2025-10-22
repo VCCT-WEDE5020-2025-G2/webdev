@@ -1,15 +1,33 @@
-h1 {
+body {
+    background-image: url("../images/background3.jpg");      
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
+    padding: 20px 40px;
+}
+
+
+h1 {
+   font-size: 35px;
+   color: orange;
+   margin: 0;
 }
 
 nav a {
     margin-left: 20px;
     text-decoration: none;
-    color:blue;
+    color:white;
     font-weight: bold;
+    transition: color 0.3s ease;
 }
 
 nav a:hover {
@@ -21,9 +39,31 @@ h2 {
     font-weight: bold;
     background: linear-gradient(to right, #ffffff, rgba(225, 225, 0));
     -webkit-background-clip: text;
-    cold: transparent;
+    color: transparent;
     text-align: center;
-    margin-top: -150px;
+    margin-top: 80px;
+    margin-bottom: 20px;
 }
+
+p {
+    font-size: 20px;
+    color: white;
+    line-height: 1.6;
+    text-align: left;
+    margin: 0 50px 50px 50px;
+}
+
+main {                      /* main keeps content centered on larger screens */
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+@media (min-width: 1024px) {
+    h2, p {
+        text-align: left;
+    }
+}
+
 
 
