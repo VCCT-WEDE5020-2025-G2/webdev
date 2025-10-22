@@ -1,34 +1,61 @@
-h1 {
+body {
+    background-image: url("../images/background4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
+    padding: 20px 40px;
+}
+
+h1 {
+    font-size: 35px;
+    color: orange;
+    margin: 0;
+    align-items: center;
+}
+
+main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+main h2 {
+    font-size: 35px;
+    color: orange;
+    margin-bottom: 20;
     
+}
+
+main p {
+    font-size: 20px;
+    font-style: italic;
+    margin: 10px 0;
 }
 
 nav a {
     margin-left: 20px;
     text-decoration: none;
-    color: blue;
+    color: white;
     font-weight: bold;
+    transition: color 0.3s;
 }
 
 nav a:hover {
     color:orange
 }
 
-background {
-    background-image: url("background.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100% 100%;
+div {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
 }
 
-h1 {
-    font-size: 30px;
-    font-weight: bold;
-    color: white;
-    text-align: center;
-    margin-top: 100px;
-    
-}
+
