@@ -21,4 +21,4 @@ If the customer has any enquiries, they can fill out the google form, or contact
 <img width="1918" height="972" alt="Screenshot 2025-11-04 151820" src="https://github.com/user-attachments/assets/32ff8868-840e-47aa-ba82-95714a3b387c" />
 
 
-github link: https://github.com/ST10497375/webdev.git
+github link: https://github.com/VCCT-WEDE5020-2025-G2/webdev.git
